@@ -174,6 +174,12 @@ function createProviderCard(provider) {
             ${getQRCodeHTML(provider)}
         </div>
         ` : ''}
+        
+        <div style="text-align: center; margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee;">
+            <a href="#navigation" style="color: #FF6200; text-decoration: none; font-size: 18px; display: inline-block; padding: 8px 12px; border-radius: 20px; background-color: #FFF3E0; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#FFE0B2'; this.style.transform='translateY(-2px)'" onmouseout="this.style.backgroundColor='#FFF3E0'; this.style.transform='translateY(0)'">
+                🔝 回到上方主選單
+            </a>
+        </div>
     `;
     
     return card;
@@ -367,7 +373,32 @@ providers.push(
         logo: "SellerSprite.png",
         discount_image: "SellerSprite.png"
     },
-    // 跨境物流 (2)
+    // 跨境物流 (4) - Updated with 2 new providers
+    {
+        name: "Linda Tsai",
+        company: "金匯國際物流",
+        service_type: "跨境物流",
+        offer_description: "美國食品/醫療器材代理進口人折扣 新台幣$3,000/票\n日本海運方案: 折扣 新台幣$2,000/票\n歐洲海運方案: 折扣 新台幣$2,000/票\n不限新舊客戶 限1次",
+        company_intro: "金匯國際物流專注於國與國之間的跨境物流整合方案, 致力於以數位化工具重塑物流體驗, 服務涵蓋美國、日本、澳洲與歐洲,提供多元運輸方案與海外倉儲加值服務,協助品牌精準佈局國際市場。",
+        website: "https://shipprime.com.tw/",
+        phone: "0955321429",
+        line_id: "063lokgc",
+        email: "lindatsai@goldenwelltw.com",
+        logo: "金匯國際物流.png",
+        qr_code: "金匯國際物流.png"
+    },
+    {
+        name: "江仁凱",
+        company: "萬泰物流供應鏈股份有限公司",
+        service_type: "跨境物流",
+        offer_description: "專案價9折\n日本亞馬遜\n啟運價  NTD24500/首CBM\n續CBM NTD8000/CＢＭ　1-3CBM(未滿3CBM)\n續CBM NTD5500/CＢＭ　3-8CBM(未滿8CBM)\n續CBM NTD5000/CＢＭ　8CBM以上\n\n澳洲亞馬遜\n啟運價  NTD25800/首CBM\n續CBM  NTD7000/CBM",
+        company_intro: "設立：1995年7月\n員工人數：台灣.中國 2500人 // 全球 約 3500人\n董事長：鄭毓文 先生\n組織協會：\n國際海運承攬運送公會會員FIATA。國際航空運輸協會會員IATA No：HO 34-306580000。海運承攬運送商業同業IOFFLAT No.：305。美國聯邦海事委員會FMC Bond No.：90961。中國大陸無船公共運送人NVOCC No.：MOC-NV01754。中國大陸一級貨代 No.：C120069884。\n美國C-TPAT//歐洲 WCA Family of Logistic Networks\n總公司：台北市八德路 2段 308 號 5 樓\n聯絡電話：+886-2-25459900",
+        website: "https://scm.dolphin-gp.com/en",
+        phone: "0930889145",
+        line_id: "victory10052",
+        email: "eason.chiang@dolphin-gp.com",
+        logo: "萬泰物流供應鏈股份有限公司.png"
+    },
     {
         name: "Andre Hsu",
         company: "台灣順豐速運",
@@ -385,7 +416,7 @@ providers.push(
         name: "Bryan Chou",
         company: "Gladstone Fulfillment, Inc.",
         service_type: "跨境物流",
-        offer_description: "新客戶優惠方案 : 免除初始帳戶註冊費用(價值$300 USD) 以及第一個月倉儲費用減免",
+        offer_description: "海外倉新客戶優惠方案 : 免除初始帳戶註冊費用(價值$300 USD) 以及第一個月倉儲費用減免",
         company_intro: "Gladstone Fulfillment Inc. 位於美國加州洛杉磯地區，提供倉儲、訂單處理、備貨出貨、中轉與供應鏈整合服務。\n\n服務相目包括物流倉儲、Amazon FBA/AWD貨物中轉、FBM一件代發，支援B2B、B2C、電商等多元出貨模式。\n\n無論是跨境電商物流、外包倉儲物流、供應鏈管理，我們的團隊具備能力和靈活性，可以滿足任何的海外倉儲物流需求。",
         website: "www.GladstoneFulfillment.com",
         phone: "909-235-6253",
