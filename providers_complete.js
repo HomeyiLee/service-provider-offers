@@ -4,7 +4,7 @@ const providers = [
         name: "Lucas",
         company: "Payoneer",
         service_type: "金流服務",
-        offer_description: "手續費優惠價0.8% (原手續費1.2%)\n使用優惠請聯系請直接填寫連結: xxx",
+        offer_description: "• 新賣家專享0.8% 優惠提領費率 (原費率1.2%)\n• 大中華區內Payoneer帳號戶轉12個月0費率 (包含中國大陸, 台灣香港與澳門)\n• 開通Payoneer 萬事達隨心付卡免月費 (新卡戶開通後, 三個月內每個月有至少2000美元消費)\n• 享受Payoneer 跨境生態圈服務, 快速連接1000+ 大中華區跨境電商服務商, 超20+ Payoneer 網內閉環直付\n\n請填寫表單開通優惠費率: https://reurl.cc/bmKY8d",
         company_intro: "Payoneer（NASDAQ: PAYO）成立於2005年，總部位於美國紐約，是全球領先的跨境支付平台。\n服務涵蓋190+國家與地區、150+幣別，提供電商賣家、自由工作者與企業多幣別收款帳戶、供應商付款、跨境轉帳及Mastercard卡片。Payoneer以合規安全、費率透明與操作便利著稱，協助用戶降低跨境金流成本並提升全球業務效率。",
         website: "https://www.payoneer.com/",
         phone: "0909604190",
